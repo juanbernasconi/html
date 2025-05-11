@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+    <title>Formulario de registro - Mi web</title>
+</head>
+<body>
+    <h2>Formulario de Registro</h2>
+<form method="get" action="">
+
+    Nombre: <input type="text" name="nombre">
+    <br>
+    Apellido: <input type="text" name="apellido">
+    <br>
+
+    Sexo:
+    <input type="radio" name="sexo" value="hombre" id="hombre"><label for="hombre">Hombre</label>
+    <input type="radio" name="sexo" value="mujer" id="mujer"><label for="mujer">Mujer</label>
+    <br>
+
+    Correo electrónico: <input type="email" name="email">
+    <br>
+
+    <input type="checkbox" name="novedades" checked>
+    Deseo recibir información sobre novedades y ofertas
+    <br>
+
+    <input type="checkbox" name="condiciones">
+    Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos
+    <br>
+
+    <a href="/condiciones.html" target="_blank">Ver condiciones generales</a>
+    <br>
+
+    País:
+    <select name="pais">
+        <option value="argentina" selected>Argentina</option>
+        <option value="brasil">Brasil</option>
+        <option value="chile">Chile</option>
+        <option value="uruguay">Uruguay</option>
+        <option value="paraguay">Paraguay</option>
+        <option value="bolivia">Bolivia</option>
+        <option value="peru">Perú</option>
+        <option value="colombia">Colombia</option>
+        <option value="ecuador">Ecuador</option>
+        <option value="venezuela">Venezuela</option>
+    </select><br><br>
+
+    Contraseña: <input type="password" name="contrasena">
+    <br>
+    Repetir contraseña: <input type="password" name="repetir_contrasena">
+    <br>
+
+    Estado Civil:
+    <select name="estado_civil">
+        <option value="soltero" selected>Soltero/a</option>
+        <option value="casado">Casado/a</option>
+        <option value="divorciado">Divorciado/a</option>
+        <option value="viudo">Viudo/a</option>
+    </select><br><br>
+
+    Provincia: <input type="text" name="provincia">
+    <br>
+    Localidad: <input type="text" name="localidad">
+    <br>
+    Dirección: <input type="text" name="direccion">
+    <br>
+    Número: <input type="text" name="numero">
+    <br>
+    Departamento: <input type="text" name="departamento">
+    <br>
+    <input type="submit" value="Registrarse">
+</form>
+</body>
+</html>

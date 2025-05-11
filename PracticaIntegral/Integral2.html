@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+<meta charset="UTF-8">
+        <title>Formulario de CV</title>
+    </head>
+    <body>
+        <h2>Formulario para Curriculum Vitae</h2>
+
+        <form method="post" action="/enviar_cv">
+
+    <fieldset>
+      <legend>Datos personales</legend>
+        Nombre completo: <input type="text" name="nombre" required>
+        <br>
+        Fecha de nacimiento: <input type="date" name="fecha_nacimiento">
+        <br>
+        Dirección: <input type="text" name="direccion">
+        <br>
+        Teléfono: <input type="tel" name="telefono">
+        <br>
+        Mail: <input type="email" name="email">
+        <br>
+    </fieldset>
+<br>
+    <fieldset>
+     <legend>Información académica</legend>
+        Nivel educativo: <input type="text" name="nivel_educativo">
+        <br>
+        Institución: <input type="text" name="institucion">
+        <br>
+        Año de finalización: <input type="number" name="anio_finalizacion">
+        <br>
+    </fieldset>
+<br>
+    <fieldset>
+      <legend>Experiencia laboral</legend>
+        Empresa: <input type="text" name="empresa">
+        <br>
+        Puesto: <input type="text" name="puesto">
+        <br>
+        Desde: <input type="month" name="inicio">
+        <br>
+        Hasta: <input type="month" name="fin">
+        <br>
+    </fieldset>
+<br>
+    <fieldset>
+      <legend>Referencias</legend>
+        Nombre: <input type="text" name="referencia_nombre">
+        <br>
+        Relación: <input type="text" name="relacion">
+        <br>
+        Contacto: <input type="tel" name="referencia_contacto">
+        <br>
+    </fieldset>
+<br>
+            <input type="submit" value="Enviar CV">
+        </form>
+    </body>
+</html>
